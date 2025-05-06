@@ -4,3 +4,59 @@ body{
   width: 100%;
   min-height: 100vh;
 }
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.financial-data {
+  margin-bottom: 20px;
+}
+
+.sliders {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.slider-container {
+  text-align: left;
+}
+
+.slider-container label {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.slider-container input[type="range"] {
+  width: 100%;
+}
+
+.update-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.update-button:hover {
+  background-color: #218838;
+}
